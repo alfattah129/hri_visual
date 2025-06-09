@@ -19,14 +19,3 @@ Install the required packages using pip:
 ```bash
 pip install deepface opencv-python numpy
 
-## Folder structer
-project_folder/
-│
-├── main.py                   # Main script to analyze input image
-├── face_analysis.py          # Core logic for face analysis and recognition
-├── references/               # Folder containing known face images
-│   ├── Alice.jpg             # Example reference image (name.jpg)
-│   ├── Bob.jpg
-│   └── ...
-└── img1.jpg                  # Input image from NAO robot's camera
-
